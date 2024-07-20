@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+      <!-- Step 2: Go to the google and search "locomotive js cdn" click the first link after click 1st option that is "locomotive-scroll.css" and copy search bar url -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Jab bhi ham locomotive lagane wale ho to ek parent div banana padta hai. Aur usko height width ham nhi de sakte agar parent div ko height width de di to locomotive kaam nhi karega. -->
+    <div id="main">
+      <div id="page1"></div>
+      <div id="page2">
+        <div id="image-div">
+            <img data-scroll data-scroll-speed="5" src="https://images.unsplash.com/photo-1721043294734-a1921933b604?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNDh8fHxlbnwwfHx8fHw%3D" alt="">
+        </div>
+      </div>
+      <div id="page3"></div>
+    </div>
+
+    <!-- Step 1: Go to the google and search "locomotive js cdn" click the first link after click 3rd option that is "locomotive-scroll.js" and copy search bar url -->
+   <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

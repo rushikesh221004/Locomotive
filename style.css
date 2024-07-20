@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#page1 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(89, 116, 174); */
+}
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(57, 99, 188); */
+}
+
+#page3 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(19, 70, 180); */
+}
+
+#page2 #image-div{
+    height: 100%;
+    width: 35%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+
+#image-div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    scale: 1.4
+}
